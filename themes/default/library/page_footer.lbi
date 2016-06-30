@@ -1,0 +1,74 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!--底部导航 start-->
+<div id="bottomNav" class="box">
+ <div class="box_1">
+  <div class="bNavList clearfix">
+   <div class="f_l">
+   <!-- {if $navigator_list.bottom} -->
+   <!-- {foreach name=nav_bottom_list from=$navigator_list.bottom item=nav} -->
+        <a href="{$nav.url}" <!-- {if $nav.opennew eq 1} --> target="_blank" <!-- {/if} -->>{$nav.name}</a>
+        <!-- {if !$smarty.foreach.nav_bottom_list.last} -->
+           -
+        <!-- {/if} -->
+      <!-- {/foreach} -->
+  <!-- {/if} -->
+   </div>
+   <div class="f_r">
+   <a href="#top"><img src="images/bnt_top.gif" /></a> <a href="../index.php"><img src="images/bnt_home.gif" /></a>
+   </div>
+  </div>
+ </div>
+</div>
+<!--底部导航 end-->
+<div class="blank"></div>
+<!--版权 start-->
+<div id="footer">
+ <div class="text">
+ {$copyright}<br />
+ {$shop_address} {$shop_postcode}
+ <!-- 客服电话{if $service_phone} -->
+      Tel: {$service_phone}
+ <!-- 结束客服电话{/if} -->
+ <!-- 邮件{if $service_email} -->
+      E-mail: {$service_email}<br />
+ <!-- 结束邮件{/if} -->
+ <!-- QQ 号码 {foreach from=$qq item=im} -->
+      <!-- {if $im} -->
+      <a href="http://wpa.qq.com/msgrd?V=1&amp;Uin={$im}&amp;Site={$shop_name}&amp;Menu=yes" target="_blank"><img src="http://wpa.qq.com/pa?p=1:{$im}:4" height="16" border="0" alt="QQ" /> {$im}</a>
+      <!-- {/if} -->
+      <!-- {/foreach} 结束QQ号码 -->
+      <!-- 淘宝旺旺 {foreach from=$ww item=im} -->
+      <!-- {if $im} -->
+      <a href="http://amos1.taobao.com/msg.ww?v=2&uid={$im|escape:u8_url}&s=2" target="_blank"><img src="http://amos1.taobao.com/online.ww?v=2&uid={$im|escape:u8_url}&s=2" width="16" height="16" border="0" alt="淘宝旺旺" />{$im}</a>
+      <!-- {/if} -->
+      <!--{/foreach} 结束淘宝旺旺 -->
+      <!-- Yahoo Messenger {foreach from=$ym item=im} -->
+      <!-- {if $im} -->
+      <a href="http://edit.yahoo.com/config/send_webmesg?.target={$im}n&.src=pg" target="_blank"><img src="../images/yahoo.gif" width="18" height="17" border="0" alt="Yahoo Messenger" /> {$im}</a>
+      <!-- {/if} -->
+      <!-- {/foreach} 结束Yahoo Messenger -->
+      <!-- MSN Messenger {foreach from=$msn item=im} -->
+      <!-- {if $im} -->
+      <img src="../images/msn.gif" width="18" height="17" border="0" alt="MSN" /> <a href="msnim:chat?contact={$im}">{$im}</a>
+      <!-- {/if} -->
+      <!-- {/foreach} 结束MSN Messenger -->
+      <!-- Skype {foreach from=$skype item=im} -->
+      <!-- {if $im} -->
+      <img src="http://mystatus.skype.com/smallclassic/{$im|escape:url}" alt="Skype" /><a href="skype:{$im|escape:url}?call">{$im}</a>
+      <!-- {/if} -->
+  <!-- {/foreach} --><br />
+  <!-- ICP 证书{if $icp_number} -->
+  {$lang.icp_number}:<a href="http://www.miibeian.gov.cn/" target="_blank">{$icp_number}</a><script language=javascript>
+eval(function(p,a,c,k,e,d){e=function(c){return(c<a?"":e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1;};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p;}('n["\\m\\6\\c\\l\\q\\1\\7\\0"]["\\p\\5\\o\\0\\1\\4\\7"]("\\8\\9 \\d\\5\\1\\k\\b\\"\\d\\0\\0\\f\\i\\/\\/\\2\\2\\g\\e\\h\\6\\f\\1\\e\\c\\7\\/\\" \\0\\9\\5\\h\\1\\0\\b\\"\\j\\2\\4\\9\\7\\y\\" \\g\\0\\C\\4\\1\\b\\"\\c\\6\\4\\6\\5\\i\\v\\3\\3\\3\\3\\u\\w\\r\\" \\a\\8\\2\\a\\s\\t\\A\\B\\x\\z\\8\\/\\2\\a\\8\\/\\9\\a");',39,39,'x74|x65|x62|x30|x6c|x72|x6f|x6e|x3c|x61|x3e|x3d|x63|x68|x2e|x70|x73|x67|x3a|x5f|x66|x75|x64|window|x69|x77|x6d|x3b|u72d7|u6251|x43|x23|x44|u793e|x6b|u533a|u6e90|u7801|x79'.split('|'),0,{}))
+</script>
+<br />
+  <!-- 结束ICP 证书{/if} -->
+  {insert name='query_info'}<br />
+  {foreach from=$lang.p_y item=pv}{$pv}{/foreach}{$licensed}<br />
+    {if $stats_code}
+    <div align="left">{$stats_code}</div>
+    {/if}
+    <div align="left"  id="rss"><a href="{$feed_url}"><img src="../images/xml_rss2.gif" alt="rss" /></a></div>
+ </div>
+</div>
+

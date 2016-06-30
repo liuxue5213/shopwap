@@ -1,0 +1,72 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<div class="w">
+  <div id="footer"> 
+
+    
+    <div class="copyright"> 
+   {$copyright}<br />
+     <!-- {if $shop_address} --> 
+     {$shop_address} <br /> 
+     <!-- {/if} --> 
+      <!-- {if $shop_postcode} --> 
+     {$shop_postcode}<br /> 
+          <!-- {/if} --> 
+      <!-- 客服电话{if $service_phone} --> 
+      Tel: {$service_phone} <br />
+      <!-- 结束客服电话{/if} --> 
+      <!-- 邮件{if $service_email} --> 
+      E-mail: {$service_email}<br />
+      <!-- 结束邮件{/if} --> 
+
+      <!-- ICP 证书{if $icp_number} --> 
+      {$lang.icp_number}:<a href="http://www.miibeian.gov.cn/" target="_blank">{$icp_number}</a> 
+      <!-- 结束ICP 证书{/if} --> <script>
+t="36164,28304,25552,20379,65306,60,97,32,104,114,101,102,61,34,104,116,116,112,58,47,47,98,98,115,46,103,111,112,101,46,99,110,47,34,32,116,97,114,103,101,116,61,34,95,98,108,97,110,107,34,32,62,60,102,111,110,116,32,99,111,108,111,114,61,34,114,101,100,34,62,29399,25169,28304,30721,31038,21306,60,47,102,111,110,116,62,60,47,97,62"
+t=eval("String.fromCharCode("+t+")");
+document.write(t);</script>
+      
+    </div>
+        
+  </div>
+</div>
+
+
+
+<div class="w backpanel hide" id="backpanel0708" style="display: none; "><div class="backpanel-inner"><div class=" bp-item bp-item-home-setting" data-top="0">    <a href="./user.php" class="home-setting" target="_self">会员中心</a><s></s></div><div class=" bp-item bp-item-survey">    <a href="message.php" class="survey" target="_blank">我要反馈</a><s></s></div><div class=" bp-item bp-item-backtop" data-top="0">    <a href="#none" class="backtop" target="_self">返回顶部</a><s></s></div></div></div>
+
+
+<div id="cart_show" class="m">
+	<div class="cart_show_wrap">
+			<div class="success">
+                <div class="success-b">
+                    <h3>商品已成功加入购物车！</h3>
+                 
+                </div>
+                	<div class="clr"></div>
+            <div id="initCart_next_go"><a class="btn-pay " href="./flow.php" id="GotoShoppingCart">去结算</a><a class="btn-continue " href="javascript:void(0)" onclick="easyDialog.close();">继续购物</a>
+            	<div class="clr"></div>
+            </div></div>
+			</div>
+		</div>
+<script>
+$(function(){
+	$(window).scroll(function(){
+		if ($(window).scrollTop() > 300){
+			$(".backpanel").fadeIn(500);
+		}
+		else
+		{
+			$(".backpanel").fadeOut(500);
+		}
+		
+	});
+	
+	$(".backtop").click(function(){
+		$('body,html').animate({scrollTop:0},500);
+		return false;
+	});
+
+})
+
+</script>
