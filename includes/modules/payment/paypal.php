@@ -75,14 +75,16 @@ class paypal
      *
      * @return void
      */
-    function paypal()
-    {
-    }
-
     function __construct()
     {
         $this->paypal();
     }
+    
+    function paypal()
+    {
+    }
+
+    
 
     /**
      * 生成支付代码

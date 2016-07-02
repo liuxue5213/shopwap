@@ -1267,7 +1267,6 @@ function cat_list($cat_id = 0, $selected = 0, $re_type = true, $level = 0, $is_s
             }
             $select .= htmlspecialchars(addslashes($var['cat_name']), ENT_QUOTES) . '</option>';
         }
-
         return $select;
     } else {
         foreach ($options AS $key => $value) {

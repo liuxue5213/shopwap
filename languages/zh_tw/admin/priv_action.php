@@ -23,7 +23,7 @@ $_LANG['promotion'] = '促銷管理';
 $_LANG['email'] = '郵件管理';
 $_LANG['templates_manage'] = '模板管理';
 $_LANG['db_manage'] = '數據庫管理';
-$_LANG['sms_manage'] = '短信管理';
+// $_LANG['sms_manage'] = '短信管理';
 
 //商品管理部分的權限
 $_LANG['goods_manage'] = '商品添加/編輯';
@@ -143,10 +143,10 @@ $_LANG['sql_query']    = ' SQL查詢';
 $_LANG['convert']      = '轉換數據';
 
 //短信管理
-$_LANG['my_info']         = '賬號信息';
-$_LANG['sms_send']        = '發送短信';
-$_LANG['sms_charge']      = '短信充值';
-$_LANG['send_history']    = '發送記錄';
-$_LANG['charge_history']  = '充值記錄 ';
+// $_LANG['my_info']         = '賬號信息';
+// $_LANG['sms_send']        = '發送短信';
+// $_LANG['sms_charge']      = '短信充值';
+// $_LANG['send_history']    = '發送記錄';
+// $_LANG['charge_history']  = '充值記錄 ';
 
 ?>

@@ -141,7 +141,7 @@ $_LANG['10_priv_admin'] = '权限管理';
 $_LANG['11_system'] = '系统设置';
 $_LANG['12_template'] = '模板管理';
 $_LANG['13_backup'] = '数据库管理';
-$_LANG['14_sms'] = '短信管理';
+// $_LANG['14_sms'] = '短信管理';
 $_LANG['15_rec'] = '推荐管理';
 $_LANG['16_email_manage'] = '邮件管理';
 
@@ -271,7 +271,7 @@ $_LANG['fckfile_manage'] = 'Fck上传文件管理';
 $_LANG['ucenter_setup'] = 'UCenter设置';
 $_LANG['file_check'] = '文件校验';
 $_LANG['021_reg_fields'] = '会员注册项设置';
-$_LANG['website'] = '第三方登录插件';
+// $_LANG['website'] = '第三方登录插件';
 
 /* 模板管理 */
 $_LANG['02_template_select'] = '模板选择';
@@ -288,11 +288,11 @@ $_LANG['05_synchronous'] = '同步数据';
 $_LANG['convert'] = '转换数据';
 
 /* 短信管理 */
-$_LANG['02_sms_my_info'] = '账号信息';
-$_LANG['03_sms_send'] = '发送短信';
-$_LANG['04_sms_charge'] = '账户充值';
-$_LANG['05_sms_send_history'] = '发送记录';
-$_LANG['06_sms_charge_history'] = '充值记录';
+// $_LANG['02_sms_my_info'] = '账号信息';
+// $_LANG['03_sms_send'] = '发送短信';
+// $_LANG['04_sms_charge'] = '账户充值';
+// $_LANG['05_sms_send_history'] = '发送记录';
+// $_LANG['06_sms_charge_history'] = '充值记录';
 
 
 

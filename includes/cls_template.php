@@ -533,7 +533,7 @@ $tag_sel = array_shift($tag_tmp);
     {
         if (strrpos($val, '[') !== false)
         {
-            $val = preg_replace("/\[([^\[\]]*)\]/eis", "'.'.str_replace('$','\$','\\1')", $val);
+            $val = @preg_replace("/\[([^\[\]]*)\]/eis", "'.'.str_replace('$','\$','\\1')", $val);
         }
 
         if (strrpos($val, '|') !== false)

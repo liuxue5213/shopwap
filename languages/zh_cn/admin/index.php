@@ -141,7 +141,6 @@ $_LANG['special_thanks'] = '特别感谢';
 $_LANG['official_site'] = '官方网站';
 $_LANG['site_url'] = '网站地址:';
 $_LANG['support_center'] = '支持中心:';
-$_LANG['support_forum'] = '支持论坛:';
 // 邮件群发
 $_LANG['mailsend_fail'] = '邮件 %s 发送失败!';
 $_LANG['mailsend_ok'] = '邮件 %s 发送成功!还有 %s 邮件未发送!';

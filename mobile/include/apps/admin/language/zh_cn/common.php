@@ -15,8 +15,8 @@
 global $_LANG;
 
 $_LANG['app_name'] = 'SWTouch';
-$_LANG['cp_home'] = 'ShopWapp 移动端管理中心';
-$_LANG['copyright'] = '狗扑分享论坛www.gope.cn. All Rights Reserved.';
+$_LANG['cp_home'] = '乐购移动端管理中心';
+$_LANG['copyright'] = '';
 $_LANG['query_info'] = '共执行 %d 个查询，用时 %s 秒';
 $_LANG['memory_info'] = '，内存占用 %0.3f MB';
 $_LANG['gzip_enabled'] = '，Gzip 已启用';
@@ -143,7 +143,7 @@ $_LANG['10_priv_admin'] = '权限管理';
 $_LANG['11_system'] = '系统设置';
 $_LANG['12_template'] = '模板管理';
 $_LANG['13_backup'] = '数据库管理';
-$_LANG['14_sms'] = '短信管理';
+// $_LANG['14_sms'] = '短信管理';
 $_LANG['15_rec'] = '推荐管理';
 $_LANG['16_email_manage'] = '邮件管理';
 
@@ -290,11 +290,11 @@ $_LANG['05_synchronous'] = '同步数据';
 $_LANG['convert'] = '转换数据';
 
 /* 短信管理 */
-$_LANG['02_sms_my_info'] = '账号信息';
-$_LANG['03_sms_send'] = '发送短信';
-$_LANG['04_sms_charge'] = '账户充值';
-$_LANG['05_sms_send_history'] = '发送记录';
-$_LANG['06_sms_charge_history'] = '充值记录';
+// $_LANG['02_sms_my_info'] = '账号信息';
+// $_LANG['03_sms_send'] = '发送短信';
+// $_LANG['04_sms_charge'] = '账户充值';
+// $_LANG['05_sms_send_history'] = '发送记录';
+// $_LANG['06_sms_charge_history'] = '充值记录';
 
 $_LANG['affiliate'] = '推荐设置';
 $_LANG['affiliate_ck'] = '分成管理';

@@ -13,9 +13,9 @@
  * $Id: common.php 17217 2011-01-19 06:29:08Z liubo $
 */
 
-$_LANG['app_name'] = 'ShopWapp';
-$_LANG['cp_home'] = 'ShopWapp 管理中心';
-$_LANG['copyright'] = '版權所有 &copy; 2006-2015 上海商派網絡科技有限公司，並保留所有權利。';
+$_LANG['app_name'] = '乐购';
+$_LANG['cp_home'] = '乐购后台管理中心';
+$_LANG['copyright'] = '';
 $_LANG['query_info'] = '共執行 %d 個查詢，用時 %s 秒';
 $_LANG['memory_info'] = '，內存佔用 %0.3f MB';
 $_LANG['gzip_enabled'] = '，Gzip 已啟用';
@@ -141,7 +141,7 @@ $_LANG['10_priv_admin'] = '權限管理';
 $_LANG['11_system'] = '系統設置';
 $_LANG['12_template'] = '模板管理';
 $_LANG['13_backup'] = '數據庫管理';
-$_LANG['14_sms'] = '短信管理';
+// $_LANG['14_sms'] = '短信管理';
 $_LANG['15_rec'] = '推薦管理';
 $_LANG['16_email_manage'] = '郵件群發管理';
 
@@ -288,11 +288,11 @@ $_LANG['05_synchronous'] = '同步數據';
 $_LANG['convert'] = '轉換數據';
 
 /* 短信管理 */
-$_LANG['02_sms_my_info'] = '賬號信息';
-$_LANG['03_sms_send'] = '發送短信';
-$_LANG['04_sms_charge'] = '賬戶充值';
-$_LANG['05_sms_send_history'] = '發送記錄';
-$_LANG['06_sms_charge_history'] = '充值記錄';
+// $_LANG['02_sms_my_info'] = '賬號信息';
+// $_LANG['03_sms_send'] = '發送短信';
+// $_LANG['04_sms_charge'] = '賬戶充值';
+// $_LANG['05_sms_send_history'] = '發送記錄';
+// $_LANG['06_sms_charge_history'] = '充值記錄';
 
 $_LANG['affiliate'] = '推薦設置';
 $_LANG['affiliate_ck'] = '分成管理';

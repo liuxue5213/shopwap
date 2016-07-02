@@ -33,7 +33,7 @@ $_LANG['send_email_error'] = '电子邮件发送错误，请联系管理员';
 
 $_LANG['shop_guide'] = '开店向导';
 $_LANG['set_navigator'] = '设置导航栏';
-$_LANG['about'] = '关于程序';
+// $_LANG['about'] = '关于程序';
 $_LANG['preview'] = '商城首页';
 $_LANG['menu'] = '菜单';
 $_LANG['help'] = '帮助中心';
@@ -139,19 +139,18 @@ $_LANG['caches_cleared'] = '缓存已经清除成功。';
 /* ------------------------------------------------------ */
 //-- 关于我们
 /* ------------------------------------------------------ */
-$_LANG['about_us'] = '关于 SWTouch 程序';
-$_LANG['team_member'] = '团队成员';
-$_LANG['before_team_member'] = 'SWTouch 贡献者';
+// $_LANG['about_us'] = '关于 SWTouch 程序';
+// $_LANG['team_member'] = '团队成员';
+// $_LANG['before_team_member'] = 'SWTouch 贡献者';
 
-$_LANG['director'] = '项目策划';
-$_LANG['programmer'] = '程序开发';
-$_LANG['ui_designer'] = '界面设计';
-$_LANG['documentation'] = '文档整理';
-$_LANG['special_thanks'] = '特别感谢';
-$_LANG['official_site'] = '官方网站';
-$_LANG['site_url'] = '网站地址';
-$_LANG['support_center'] = '支持中心';
-$_LANG['support_forum'] = '支持论坛';
+// $_LANG['director'] = '项目策划';
+// $_LANG['programmer'] = '程序开发';
+// $_LANG['ui_designer'] = '界面设计';
+// $_LANG['documentation'] = '文档整理';
+// $_LANG['special_thanks'] = '特别感谢';
+// $_LANG['official_site'] = '官方网站';
+// $_LANG['site_url'] = '网站地址';
+// $_LANG['support_center'] = '支持中心';
 
 //修改密码
 $_LANG['user_name'] = '用户名';

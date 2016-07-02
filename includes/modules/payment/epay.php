@@ -76,14 +76,17 @@ class epay
      *
      * @return void
      */
-    function epay()
-    {
-    }
-
+    
     function __construct()
     {
         $this->epay();
     }
+    
+    function epay()
+    {
+    }
+
+    
 
     /**
      * 生成支付代码

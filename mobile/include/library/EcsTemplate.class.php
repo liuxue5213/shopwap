@@ -1,6 +1,7 @@
 <?php
 /* 访问控制 */
 defined('IN_SWTOUCH') or die('Deny Access');
+
 class EcsTemplate {
     var $template_dir = '';
     var $cache_dir = '';

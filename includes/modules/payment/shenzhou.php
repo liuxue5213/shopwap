@@ -73,15 +73,16 @@ class shenzhou
      *
      * @return void
      */
-
-    function shenzhou()
-    {
-    }
-
     function __construct()
     {
         $this->shenzhou();
     }
+    
+    function shenzhou()
+    {
+    }
+
+    
 
    /**
      * 生成支付代码

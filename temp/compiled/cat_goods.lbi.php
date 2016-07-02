@@ -7,13 +7,13 @@
       <div class="mc">
         <div class="style1">
           <ul class="lh">
-            <?php $_from = $this->_var['goods_cat']['cat_clild']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'cat_0_64391400_1430569616');$this->_foreach['foo'] = array('total' => count($_from), 'iteration' => 0);
+            <?php $_from = $this->_var['goods_cat']['cat_clild']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'cat_0_31272600_1467359927');$this->_foreach['foo'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['foo']['total'] > 0):
-    foreach ($_from AS $this->_var['cat_0_64391400_1430569616']):
+    foreach ($_from AS $this->_var['cat_0_31272600_1467359927']):
         $this->_foreach['foo']['iteration']++;
 ?>
             <?php if ($this->_foreach['foo']['iteration'] < 17): ?>
-            <li><a href="<?php echo $this->_var['cat_0_64391400_1430569616']['url']; ?>"><?php echo $this->_var['cat_0_64391400_1430569616']['name']; ?></a></li>
+            <li><a href="<?php echo $this->_var['cat_0_31272600_1467359927']['url']; ?>"><?php echo $this->_var['cat_0_31272600_1467359927']['name']; ?></a></li>
             <?php endif; ?>
              <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
   
@@ -139,12 +139,12 @@ if ($this->_foreach['foo2']['total'] > 0):
       </div>
       <div class="smc">
         <ul class="lh">
-        <?php $_from = $this->_var['goods_cat']['brands']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'brands_0_64391400_1430569616');$this->_foreach['foo'] = array('total' => count($_from), 'iteration' => 0);
+        <?php $_from = $this->_var['goods_cat']['brands']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'brands');$this->_foreach['foo'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['foo']['total'] > 0):
-    foreach ($_from AS $this->_var['brands_0_64391400_1430569616']):
+    foreach ($_from AS $this->_var['brands']):
         $this->_foreach['foo']['iteration']++;
 ?>  
-          <li class="fore<?php echo $this->_foreach['foo']['iteration']; ?>"><a target="_blank" href="<?php echo $this->_var['brands_0_64391400_1430569616']['url']; ?>"><?php if ($this->_var['brands_0_64391400_1430569616']['logo'] != "data/brandlogo/"): ?><img height="35" width="98" src="<?php echo $this->_var['brands_0_64391400_1430569616']['logo']; ?>"><?php else: ?><?php echo $this->_var['brands_0_64391400_1430569616']['brand_name']; ?><?php endif; ?></a></li>
+          <li class="fore<?php echo $this->_foreach['foo']['iteration']; ?>"><a target="_blank" href="<?php echo $this->_var['brands']['url']; ?>"><?php if ($this->_var['brands']['logo'] != "data/brandlogo/"): ?><img height="35" width="98" src="<?php echo $this->_var['brands']['logo']; ?>"><?php else: ?><?php echo $this->_var['brands']['brand_name']; ?><?php endif; ?></a></li>
           <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
         </ul>
       </div>

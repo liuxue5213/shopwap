@@ -13,15 +13,7 @@ $k = array (
 echo $this->_echash . $k['name'] . '|' . serialize($k) . $this->_echash;
 ?>
       <li class="fore2 ld"> <s></s> <a href="user.php?act=order_list">我的订单</a> </li>
-<!--       <li class="fore3 ld menu" id="app-jd"><s></s><i></i><span class="outline"></span><span class="blank"></span><a href="#" target="_blank">手机商城</a><b></b>
-        <div class="dd lh">
-          <div class="qr-info"></div>
-          <div class="qr-item qr-jd-app">
-            <div class="qr-img"><img id="app-qrcode-img" src="themes/swdefault/images/538557daNd249a428.png" class="err-product" width="76" height="76" alt="手机商城" src="themes/swdefault/images/blank.gif"></div>
-            <div class="qr-ext"><strong>商城客户端</strong><a href="#" target="_blank" class="btn-app-apple"></a><a href="#" target="_blank" class="btn-app-android"></a></div>
-          </div>
-        </div>
-      </li> -->
+
       <li class="fore4 ld menu" id="biz-service"> <s></s> <span class="outline"></span> <span class="blank"></span> 客户服务 <b></b>
         <div class="dd">
           <div><a href="#" target="_blank">帮助中心</a></div>

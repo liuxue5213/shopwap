@@ -88,10 +88,10 @@ class IndexController extends AdminController
     }
     
     // 关于程序
-    public function aboutus()
-    {
-        $this->display();
-    }
+    // public function aboutus()
+    // {
+    //     $this->display();
+    // }
     
     // 查看网店
     public function demo()
@@ -146,6 +146,8 @@ class IndexController extends AdminController
             }
             // 用户信息
             $userInfo = model('Admin')->getUserInfo($username, $password);
+            // print_r($userInfo);
+            // die;
             if (! empty($userInfo)) {
                 $this->setLogin($userInfo);
                 // 保存登录状态

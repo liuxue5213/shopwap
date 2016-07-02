@@ -92,7 +92,7 @@
     </div>
   </div>
 </div>
-<div id="admin_bottom" style="text-align:center;line-height:30px">Copyright &copy; <?php echo date('Y');?> 狗扑分享论坛www.gope.cn. All Rights Reserved.</div>
+<!-- <div id="admin_bottom" style="text-align:center;line-height:30px">Copyright &copy; <?php echo date('Y');?> 狗扑分享论坛www.gope.cn. All Rights Reserved.</div> -->
 <div style="clear:both"></div>
 <script src="__PUBLIC__/js/jquery.min.js" type="text/javascript"></script> 
 <script type="text/javascript">
