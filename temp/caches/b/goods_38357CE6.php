@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:11:{i:0;s:41:"E:/WWW/shopwap/themes/swdefault/goods.dwt";i:1;s:55:"E:/WWW/shopwap/themes/swdefault/library/page_header.lbi";i:2;s:51:"E:/WWW/shopwap/themes/swdefault/library/ur_here.lbi";i:3;s:57:"E:/WWW/shopwap/themes/swdefault/library/goods_gallery.lbi";i:4;s:58:"E:/WWW/shopwap/themes/swdefault/library/goods_fittings.lbi";i:5;s:52:"E:/WWW/shopwap/themes/swdefault/library/comments.lbi";i:6;s:56:"E:/WWW/shopwap/themes/swdefault/library/bought_goods.lbi";i:7;s:58:"E:/WWW/shopwap/themes/swdefault/library/browse_related.lbi";i:8;s:51:"E:/WWW/shopwap/themes/swdefault/library/history.lbi";i:9;s:48:"E:/WWW/shopwap/themes/swdefault/library/help.lbi";i:10;s:55:"E:/WWW/shopwap/themes/swdefault/library/page_footer.lbi";}s:7:"expires";i:1467382471;s:8:"maketime";i:1467378871;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php exit;?>a:3:{s:8:"template";a:11:{i:0;s:41:"E:/WWW/shopwap/themes/swdefault/goods.dwt";i:1;s:55:"E:/WWW/shopwap/themes/swdefault/library/page_header.lbi";i:2;s:51:"E:/WWW/shopwap/themes/swdefault/library/ur_here.lbi";i:3;s:57:"E:/WWW/shopwap/themes/swdefault/library/goods_gallery.lbi";i:4;s:58:"E:/WWW/shopwap/themes/swdefault/library/goods_fittings.lbi";i:5;s:52:"E:/WWW/shopwap/themes/swdefault/library/comments.lbi";i:6;s:56:"E:/WWW/shopwap/themes/swdefault/library/bought_goods.lbi";i:7;s:58:"E:/WWW/shopwap/themes/swdefault/library/browse_related.lbi";i:8;s:51:"E:/WWW/shopwap/themes/swdefault/library/history.lbi";i:9;s:48:"E:/WWW/shopwap/themes/swdefault/library/help.lbi";i:10;s:55:"E:/WWW/shopwap/themes/swdefault/library/page_footer.lbi";}s:7:"expires";i:1467606830;s:8:"maketime";i:1467603230;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -872,50 +872,7 @@ function sleep(d){
     
         
             
-        <div id="ranklist" class="m m2">
-      <div class="mt">
-        <h2>排行榜</h2>
-      </div>
-      <div class="mc">
-        <ul class="tab">
-          <li class="curr">同价位</li>
-          <li>同品牌</li>
-          <li>同类别</li>
-        </ul>
-        <ul class="tabcon">
-                    <li class="fore1"><span>1</span>
-            <div class="p-img"><a href="goods.php?id=75"><img height="50" width="50" src="images/201407/thumb_img/75_thumb_G_1406503362534.jpg"></a></div>
-            <div class="p-name"><a href="goods.php?id=75" title="欧莱雅（LOREAL）男士劲能深层净化洁面膏（100ml+50ml）">欧莱雅（LOREAL）男士劲能深层净化洁面膏（100ml+50ml）</a></div>
-            <div class="p-price"><strong class="J-p-942510">￥39</strong></div>
-          </li>
-                    <li class="fore2"><span>2</span>
-            <div class="p-img"><a href="goods.php?id=73"><img height="50" width="50" src="images/201407/thumb_img/73_thumb_G_1406503302082.jpg"></a></div>
-            <div class="p-name"><a href="goods.php?id=73" title="欧莱雅（LOREAL）男士 控油炭爽抗黑头洁面膏100ml">欧莱雅（LOREAL）男士 控油炭爽抗黑头洁面膏100ml</a></div>
-            <div class="p-price"><strong class="J-p-942510">￥35</strong></div>
-          </li>
-                  </ul>
-        <ul class="tabcon hide">
-                    <li class="fore1"><span>1</span>
-            <div class="p-img"><a href="goods.php?id=75"><img data-img="1" height="50" width="50" src="images/201407/thumb_img/75_thumb_G_1406503362534.jpg" class="err-product"></a></div>
-            <div class="p-name"><a href="goods.php?id=75" title="欧莱雅（LOREAL）男士劲能深层净化洁面膏（100ml+50ml）">欧莱雅（LOREAL）男士劲能深层净化洁面膏（100ml+50ml）</a></div>
-            <div class="p-price"><strong class="J-p-1029670">￥39</strong></div>
-          </li>
-                    <li class="fore2"><span>2</span>
-            <div class="p-img"><a href="goods.php?id=73"><img data-img="1" height="50" width="50" src="images/201407/thumb_img/73_thumb_G_1406503302082.jpg" class="err-product"></a></div>
-            <div class="p-name"><a href="goods.php?id=73" title="欧莱雅（LOREAL）男士 控油炭爽抗黑头洁面膏100ml">欧莱雅（LOREAL）男士 控油炭爽抗黑头洁面膏100ml</a></div>
-            <div class="p-price"><strong class="J-p-1029670">￥35</strong></div>
-          </li>
-                    <li class="fore3"><span>3</span>
-            <div class="p-img"><a href="goods.php?id=60"><img data-img="1" height="50" width="50" src="images/201407/thumb_img/60_thumb_G_1406502424054.jpg" class="err-product"></a></div>
-            <div class="p-name"><a href="goods.php?id=60" title="联想（Lenovo） C245 18.5英寸一体电脑（E1-1200 2G 50...">联想（Lenovo） C245 18.5英寸一体电脑（E1-1200 2G 50...</a></div>
-            <div class="p-price"><strong class="J-p-1029670">￥1999</strong></div>
-          </li>
-                  </ul>
-        <ul class="tabcon hide">
-                  </ul>
-      </div>
-    </div>
-           </div>
+          </div>
 </div>
 <div class="clr"></div>
 <div class="w">
@@ -1148,7 +1105,7 @@ var minute = "分钟";
 var second = "秒";
 var end = "结束";
 var goodsId = 145;
-var now_time = 1467350071;
+var now_time = 1467574430;
 onload = function(){
   changePrice();
   fixpng();
