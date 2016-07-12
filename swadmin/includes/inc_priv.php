@@ -145,9 +145,9 @@ if (!defined('IN_ECS'))
     $purview['affiliate_ck']         = 'affiliate_ck';
 
 //邮件管理
-    $purview['attention_list']       = 'attention_list';
-    $purview['email_list']           = 'email_list';
-    $purview['magazine_list']        = 'magazine_list';
-    $purview['view_sendlist']        = 'view_sendlist';
+    // $purview['attention_list']       = 'attention_list';
+    // $purview['email_list']           = 'email_list';
+    // $purview['magazine_list']        = 'magazine_list';
+    // $purview['view_sendlist']        = 'view_sendlist';
 
 ?>

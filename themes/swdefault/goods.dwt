@@ -229,27 +229,7 @@ function reg(str){
               </div>
             </div>
           </li>
-          <li id="choose-service" class="hide" style="display: list-item; ">
-            <div class="dt">会员价格：</div>
-            <div class="dd">
-              <div class="service-type-yb">
-                <div class="yb-item-cat yb-item-cat-r1"> 
-                  <!-- {foreach from=$rank_prices item=rank_price key=key name=rank_price} 会员等级对应的价格--> 
-                  <!-- {if $smarty.foreach.rank_price.iteration eq 1} -->
-                  <div class="item"> <a href="#none" class="yb-item yb-item-first" id="ECS_RANKPRICE_{$key}">{$rank_price.rank_name} {$rank_price.price}</a></div>
-                  <!-- {/if} --> 
-                  <!--{/foreach}-->
-                  <div class="yb-item-hide"> 
-                    <!-- {foreach from=$rank_prices item=rank_price key=key name=rank_price} 会员等级对应的价格--> 
-                    <!-- {if $smarty.foreach.rank_price.iteration > 1} -->
-                    <div class="item"><a href="#none" class="yb-item" id="ECS_RANKPRICE_{$key}">{$rank_price.rank_name} {$rank_price.price}</a></div>
-                    <!-- {/if} --> 
-                    <!--{/foreach}--> 
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
+
           <li id="choose-btns">
             <div id="choose-btn-append" class="btn"> <a class="btn-append " id="InitCartUrl" href="javascript:addToCart({$goods.goods_id})" title="">加入购物车<b></b></a> </div>
             <div id="choose-btn-easybuy" class="btn" style="display: block; "></div>
@@ -530,7 +510,6 @@ function changePriceResponse(res)
       document.getElementById('ECS_SHOPPRICE').innerHTML = res.result;
     if (document.getElementById('ECS_GOODS_AMOUNT'))
       document.getElementById('ECS_GOODS_AMOUNT').innerHTML = res.result;
-	
   }
 }
 <!-- {/literal} -->
